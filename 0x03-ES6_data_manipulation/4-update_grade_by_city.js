@@ -13,4 +13,3 @@ export default function updateStudentGradeByCity(getListStudents, city, newGrade
       return studentObject;
     });
 }
-
