@@ -5,7 +5,7 @@ async function countStudents(filePath) {
     const database = await fs.readFile(filePath, 'utf8');
     const entries = database.split('\n').filter((line) => line.trim() !== '');
 
-    console.log(`Total number of students: ${entries.length - 1}`);
+    console.log(`Number of students: ${entries.length - 1}`);
 
     const fieldMap = {};
     entries.slice(1).forEach((entry) => {
