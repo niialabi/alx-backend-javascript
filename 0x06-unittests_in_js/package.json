@@ -1,0 +1,15 @@
+{
+  "name": "calculatenumberpackage",
+  "version": "1.0.0",
+  "description": "Basic test with Mocha and Node assertion library",
+  "main": "0-calcul.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-jest": "^27.9.0"
+  },
+  "author": "Taufiq M. Alabi",
+  "license": "ISC"
+}
