@@ -1,4 +1,3 @@
-
 const Utils = {
   calculateNumber(type, a, b) {
     if (type === 'SUM') {
@@ -16,7 +15,7 @@ const Utils = {
       return roundedA / roundedB;
     }
     return 0;
-  }
+  },
 };
 
 module.exports = Utils;
